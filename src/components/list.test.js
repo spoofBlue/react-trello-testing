@@ -9,7 +9,7 @@ describe('<List />', () => {
         for (let i = 0; i < 10; i++) {
             seedCards.push(`Card ${i}`);
         }
-    });
+    }); 
 
     it('Renders without crashing', () => {
         shallow(<List title="Foo" />);
